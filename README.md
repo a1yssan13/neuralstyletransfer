@@ -1,8 +1,6 @@
-# neuralstyletransfer
-pytorch implementation of neural style transfer (gatys, cyclegans, johnson)
+# neural style transfer w/ pytorch
 
-
-This is a Pytorch implementation of 3 ways to do NST (Neural Style Transfer) & some quick explanation/notes on each one. The goal of neural style transfer is to preserve the content of an image we want to transform to pick up on stylistic patterns in another image & papers are linked below. 
+This is a Pytorch implementation of different papers for nst & some quick explanation/notes on each one. The goal of neural style transfer is to preserve the content of an image we want to transform to pick up on stylistic patterns in another image & papers are linked below. 
 
 ## [Gatys et al](https://arxiv.org/abs/1508.06576)
 
