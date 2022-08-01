@@ -4,9 +4,9 @@ This is a Pytorch implementation of different papers for nst & some quick explan
 
 ## Example Images 
 
-![cat sample](images/cat.jpeg)
-![cow sample](images/cow.jpeg)
-![porcupine sample](images/porcupine.jpeg)
+![cat sample](images/cat.png)
+![cow sample](images/cow.png)
+![porcupine sample](images/porcupine.png)
 
 ## [Gatys et al](https://arxiv.org/abs/1508.06576)
 
