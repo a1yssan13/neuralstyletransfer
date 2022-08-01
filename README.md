@@ -2,6 +2,12 @@
 
 This is a Pytorch implementation of different papers for nst & some quick explanation/notes on each one. The goal of neural style transfer is to preserve the content of an image we want to transform to pick up on stylistic patterns in another image & papers are linked below. 
 
+## Example Images 
+
+![cat sample](images/cat.jpeg)
+![cow sample](images/cow.jpeg)
+![porcupine sample](images/porcupine.jpeg)
+
 ## [Gatys et al](https://arxiv.org/abs/1508.06576)
 
 This was the earliest and most basic of the three implementations. Gatys starts off by using a pre-trained image-classification neural network (we use VGG19 here). Pretrained networks are interesting because [we know](https://arxiv.org/abs/1311.2901) that lower layers of the network pick up on “local features” (edges, corners, diagonals, colors) but as the network gets deeper, the further layers pick up on more general items (say, identify a face, clouds, or complex animal shapes). These features can help us identify how to transfer the features like texture/color of one image onto the content of another. 
